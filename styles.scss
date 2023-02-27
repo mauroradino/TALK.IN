@@ -1,0 +1,111 @@
+$color_1: #3636ff;
+$color_2: white;
+$font-family_1: 'Noto Sans TC';
+$background-color_1: #3636ff;
+
+@import "https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Noto+Sans+TC&family=Unbounded:wght@200&display=swap";
+.animate__bounceIn {
+	margin-left: 100px;
+	margin-top: 100px;
+}
+h1 {
+	font-family: $font-family_1;
+	font-weight: bold;
+}
+.texto_bienvenida {
+	font-family: $font-family_1;
+	margin-left: 110px;
+	width: 600px;
+}
+.nav-link {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-weight: bold;
+}
+footer {
+	background-color: $background-color_1;
+	margin-top: 1000px;
+}
+.texto_footer {
+	color: $color_2;
+	font-family: $font-family_1;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+}
+.quienes_somos_texto {
+	margin-left: 100px;
+	margin-top: 20px;
+	width: 1300px;
+}
+.index {
+	display: flex;
+}
+.bienvenida {
+	display: inline-block;
+}
+.banner_index {
+	display: inline-flex;
+	width: 600px;
+	margin-left: 200px;
+}
+.idioma {
+	list-style-type: none;
+	margin-right: 100px;
+	color: $color_1;
+}
+.ingles {
+	border-radius: 2px;
+}
+.quienes_somos {
+	font-family: $font-family_1;
+	font-weight: bold;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.proximamente {
+	display: flex;
+	justify-content: center;
+	margin-top: 50%;
+	font-size: 600%;
+}
+.fotos_lista_contacto {
+	width: 30px;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+ul {
+	margin-left: 100px;
+	font-family: $font-family_1;
+	list-style-type: none;
+}
+.ingreso {
+	margin-left: 42%;
+	margin-top: 20px;
+}
+.titulo_ingreso {
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
+}
+.input_mail {
+	margin-top: 20px;
+	width: 300px;
+}
+.input_contraseña {
+	margin-top: 10px;
+	width: 300px;
+} 
+.boton_ingresar {
+	margin-left: 55.4%;
+	margin-top: 10px;
+	background-color: $background-color_1;
+	color: $color_2;
+	border: none;
+	border-radius: 4px;
+	width: 80px;
+	height: 30px;
+}
